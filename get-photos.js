@@ -18,7 +18,7 @@ request('http://iditarod.com/race/2014/', function(err, res, html) {
 					}
 				});
 				count++;
-				if(count === mushers.length) fs.writeFileSync('img.json', JSON.stringify(mushers, null, 2))
+				if(count === mushers.length) fs.writeFileSync('mushers.json', JSON.stringify(mushers, null, 2))
 			});
 		});
     });
