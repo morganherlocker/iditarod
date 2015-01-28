@@ -4,7 +4,7 @@ var fs = require('fs');
 
 var mushers = require('./mushers.json')
 
-request('http://iditarod.com/race/2013/', function(err, res, html) {
+request('http://iditarod.com/race/2014/', function(err, res, html) {
 	var $ = cheerio.load(html);
 	var count = 0;
 	$('[class^="musher"]').each(function(i, element){
@@ -13,7 +13,7 @@ request('http://iditarod.com/race/2013/', function(err, res, html) {
 			var $ = cheerio.load(photoHtml);
 			$('[itemprop="photo"]').each(function(j, photoElement){
 				mushers.forEach(function(musher){
-					if(name === musher.Name){
+					if(name === musher.name){
 						musher.img = photoElement.attribs.src;
 					}
 				});
@@ -23,4 +23,3 @@ request('http://iditarod.com/race/2013/', function(err, res, html) {
 		});
     });
 });
-
