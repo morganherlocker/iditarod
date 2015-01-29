@@ -1,3 +1,4 @@
 # iditarod
 
-all data comes from http://iditarod.com/race/2013/
+- adapted [route file](http://mushingtech.blogspot.com/2014/02/the-iditarod-track-file.html)
+- [musher & times data](http://iditarod.com/race/2014/)
