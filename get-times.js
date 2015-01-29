@@ -39,7 +39,7 @@ request('http://iditarod.com/race/2014/checkpoints/', function(err, res, html) {
             checkpoint.times = times;
             checkpoints.push(checkpoint);
             if(i === pts.length - 1){
-                fs.writeFileSync('./checktimes.json', JSON.stringify(checkpoints, null, 2))
+                fs.writeFileSync('./checktimes.json', JSON.stringify(checkpoints, null, 2));
             }
         });
     });
