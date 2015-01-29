@@ -13,5 +13,5 @@ node get-photos.js
 node get-times.js
 node split-legs.js
 node get-distances.js
-node get-waypoints.js
+node snap-waypoints.js
 ```
