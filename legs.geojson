@@ -296,7 +296,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 61.021304036839396
+      }
     },
     {
       "type": "Feature",
@@ -361,7 +363,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 34.948303245281195
+      }
     },
     {
       "type": "Feature",
@@ -458,7 +462,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 24.87736400317223
+      }
     },
     {
       "type": "Feature",
@@ -663,7 +669,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 32.349189235521266
+      }
     },
     {
       "type": "Feature",
@@ -820,7 +828,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 64.28314748826432
+      }
     },
     {
       "type": "Feature",
@@ -981,7 +991,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 50.85939290211976
+      }
     },
     {
       "type": "Feature",
@@ -1026,7 +1038,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 16.29961351251383
+      }
     },
     {
       "type": "Feature",
@@ -1103,7 +1117,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 20.236762628104778
+      }
     },
     {
       "type": "Feature",
@@ -1336,7 +1352,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 70.24212933849057
+      }
     },
     {
       "type": "Feature",
@@ -2025,7 +2043,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 67.95010686558705
+      }
     },
     {
       "type": "Feature",
@@ -2238,7 +2258,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 52.49612335186243
+      }
     },
     {
       "type": "Feature",
@@ -2415,7 +2437,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 47.34321649357748
+      }
     },
     {
       "type": "Feature",
@@ -2540,7 +2564,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 34.776319582827796
+      }
     },
     {
       "type": "Feature",
@@ -2633,7 +2659,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 71.79794479368837
+      }
     },
     {
       "type": "Feature",
@@ -2746,7 +2774,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 46.039658084337646
+      }
     },
     {
       "type": "Feature",
@@ -2779,7 +2809,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 40.24886503394534
+      }
     },
     {
       "type": "Feature",
@@ -2932,7 +2964,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 44.301484825530416
+      }
     },
     {
       "type": "Feature",
@@ -3257,7 +3291,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 90.15778406011309
+      }
     },
     {
       "type": "Feature",
@@ -3390,7 +3426,9 @@
           ]
         ]
       },
-      "properties": {}
+      "properties": {
+        "distance": 21.36500132683688
+      }
     }
   ]
 }
