@@ -16,8 +16,6 @@ checkpoints.forEach(function(cp){
     if(point) {
         point.properties = {};
         point.properties.name = cp;
-        point.properties['marker-color'] = 'f00';
-        point.properties['marker-size'] = 'small';
         waypoints.features.push(point);
     }
 });
@@ -26,9 +24,9 @@ checkpoints.forEach(function(cp){
 var segments = turf.featurecollection([]);
 for(var i = 0; i < waypoints.features.length - 1; i++) {
     var leg = turf.lineSlice(waypoints.features[i], waypoints.features[i+1], route);
-    leg.properties.start = waypoints.features[i].name;
-    leg.properties.stop = waypoints.features[i+1].name;
+    leg.properties.start = waypoints.features[i].properties.name;
+    leg.properties.stop = waypoints.features[i+1].properties.name;
     segments.features.push(leg);
 }
 
-fs.writeFileSync('legs.geojson', JSON.stringify(segments, null, 2))
+fs.writeFileSync('./legs.geojson', JSON.stringify(segments, null, 2))

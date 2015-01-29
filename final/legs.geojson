@@ -298,7 +298,8 @@
       },
       "properties": {
         "start": "Willow",
-        "stop": "Skwentna"
+        "stop": "Skwentna",
+        "distance": 61.021304036839396
       }
     },
     {
@@ -366,7 +367,8 @@
       },
       "properties": {
         "start": "Skwentna",
-        "stop": "Finger Lake"
+        "stop": "Finger Lake",
+        "distance": 34.948303245281195
       }
     },
     {
@@ -466,7 +468,8 @@
       },
       "properties": {
         "start": "Finger Lake",
-        "stop": "Rainy Pass"
+        "stop": "Rainy Pass",
+        "distance": 24.87736400317223
       }
     },
     {
@@ -674,7 +677,8 @@
       },
       "properties": {
         "start": "Rainy Pass",
-        "stop": "Rohn"
+        "stop": "Rohn",
+        "distance": 32.349189235521266
       }
     },
     {
@@ -834,7 +838,8 @@
       },
       "properties": {
         "start": "Rohn",
-        "stop": "Nikolai"
+        "stop": "Nikolai",
+        "distance": 64.28314748826432
       }
     },
     {
@@ -998,7 +1003,8 @@
       },
       "properties": {
         "start": "Nikolai",
-        "stop": "McGrath"
+        "stop": "McGrath",
+        "distance": 50.85939290211976
       }
     },
     {
@@ -1046,7 +1052,8 @@
       },
       "properties": {
         "start": "McGrath",
-        "stop": "Takotna"
+        "stop": "Takotna",
+        "distance": 16.29961351251383
       }
     },
     {
@@ -1126,7 +1133,8 @@
       },
       "properties": {
         "start": "Takotna",
-        "stop": "Ophir"
+        "stop": "Ophir",
+        "distance": 20.236762628104778
       }
     },
     {
@@ -1362,7 +1370,8 @@
       },
       "properties": {
         "start": "Ophir",
-        "stop": "Cripple"
+        "stop": "Cripple",
+        "distance": 70.24212933849057
       }
     },
     {
@@ -2054,7 +2063,8 @@
       },
       "properties": {
         "start": "Cripple",
-        "stop": "Ruby"
+        "stop": "Ruby",
+        "distance": 67.95010686558705
       }
     },
     {
@@ -2270,7 +2280,8 @@
       },
       "properties": {
         "start": "Ruby",
-        "stop": "Galena"
+        "stop": "Galena",
+        "distance": 52.49612335186243
       }
     },
     {
@@ -2450,7 +2461,8 @@
       },
       "properties": {
         "start": "Galena",
-        "stop": "Nulato"
+        "stop": "Nulato",
+        "distance": 47.34321649357748
       }
     },
     {
@@ -2578,7 +2590,8 @@
       },
       "properties": {
         "start": "Nulato",
-        "stop": "Kaltag"
+        "stop": "Kaltag",
+        "distance": 34.776319582827796
       }
     },
     {
@@ -2674,7 +2687,8 @@
       },
       "properties": {
         "start": "Kaltag",
-        "stop": "Unalakleet"
+        "stop": "Unalakleet",
+        "distance": 71.79794479368837
       }
     },
     {
@@ -2790,7 +2804,8 @@
       },
       "properties": {
         "start": "Unalakleet",
-        "stop": "Shaktoolik"
+        "stop": "Shaktoolik",
+        "distance": 46.039658084337646
       }
     },
     {
@@ -2826,7 +2841,8 @@
       },
       "properties": {
         "start": "Shaktoolik",
-        "stop": "Koyuk"
+        "stop": "Koyuk",
+        "distance": 40.24886503394534
       }
     },
     {
@@ -2982,7 +2998,8 @@
       },
       "properties": {
         "start": "Koyuk",
-        "stop": "Elim"
+        "stop": "Elim",
+        "distance": 44.301484825530416
       }
     },
     {
@@ -3310,7 +3327,8 @@
       },
       "properties": {
         "start": "Elim",
-        "stop": "Safety"
+        "stop": "Safety",
+        "distance": 90.15778406011309
       }
     },
     {
@@ -3446,7 +3464,8 @@
       },
       "properties": {
         "start": "Safety",
-        "stop": "Nome"
+        "stop": "Nome",
+        "distance": 21.36500132683688
       }
     }
   ]
