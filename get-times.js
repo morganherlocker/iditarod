@@ -37,6 +37,7 @@ request('http://iditarod.com/race/2014/checkpoints/', function(err, res, html) {
                 times.push(musher);
             });
             if(!times.length) console.log('NO TIMES: ' + checkpoint.name)
+                console.log(checkpoint.name + ': ' + times.length)
             checkpoint.times = times;
             checkpoints.push(checkpoint);
             if(i === pts.length - 1){

@@ -53,15 +53,20 @@ mushers.forEach(function(musher){
     }
 });
 
+// filter out racers with no times
+mushers = mushers.filter(function(musher){
+    return musher.times;
+});
+
 fs.writeFileSync('./final/mushers.json', JSON.stringify(mushers));
 
 function stringToDatetime(time) {
     if(time) {
         var year = 2014;
-        var  month = time.split(' ')[0].split('/')[0];
-        var  day = time.split(' ')[0].split('/')[1];
-        var  hours = time.split(' ')[1].split(':')[0];
-        var  minutes = time.split(' ')[1].split(':')[1];
+        var month = time.split(' ')[0].split('/')[0];
+        var day = time.split(' ')[0].split('/')[1];
+        var hours = time.split(' ')[1].split(':')[0];
+        var minutes = time.split(' ')[1].split(':')[1];
         var datetime = new Date(2014, month, day, hours, minutes, 0, 0);
         return datetime
     } else {
